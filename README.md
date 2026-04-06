@@ -1,6 +1,6 @@
 # 🐜 Maruthi Pest Control Website
 
-Official website for **Maruthi Pest Control Pvt Ltd**, providing professional pest control services in Ongole, Andhra Pradesh.
+Official website for **Maruthi Pest Control Services**, providing professional pest control services in Ongole, Andhra Pradesh.
 
 ---
 
