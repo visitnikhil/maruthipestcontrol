@@ -370,16 +370,6 @@ footer{background:var(--dark);border-top:1px solid rgba(22,163,74,0.12);padding:
   .pricing-divider{ display:none; }
   .budget-banner{ flex-direction:column; text-align:center; }
 }
-.nav-links.active{
-  display:flex;
-  flex-direction:column;
-  position:absolute;
-  top:70px;
-  right:20px;
-  background:#0d1a0f;
-  padding:1rem;
-  border-radius:10px;
-}
 </style>
 </head>
 <body>
@@ -1100,13 +1090,6 @@ reveals.forEach(el=>observer.observe(el));
 document.querySelectorAll('.services-grid .service-card,.testimonials-grid .tcard').forEach((el,i)=>{
   el.style.transitionDelay=i*0.08+'s';
 });
-<script>
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.querySelector(".nav-links");
-
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
 </script>
 </body>
 </html>
